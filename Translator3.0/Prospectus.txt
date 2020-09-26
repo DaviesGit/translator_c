@@ -1,0 +1,47 @@
+		--Translator3.0 Prospectus--
+
+	File I need:
+1) Trans.h Trans.cpp
+	this is a translation API , using 'google translate' , it's a little complex for me , but it's also easy!
+2) TransDlg.h TransDlg.cpp
+	this is a mian window, which is contain two Edits. and one of Edits is input Edits, and other is output Edit.
+3) CtrlFun.h CtrlFun.cpp 
+	It includes all functions that control translate dialog action.
+
+	Function I need
+1) automatic hiding or show Translate Window.
+2) using Ctrl+Shift+I to input Translated Text, using Ctrl+S to save Translate Results, using Ctrl+P to open or close auto play word audio. 
+3) play words audio.
+4) saving and reading translate result and pronunciation audio.
+
+
+	What is difficult for me:
+1) I need to write Trans.cpp which is contain google translate API, but google translate have a key to verify whether this request come from explorer, and different word at the different time with different key algorithm. so I need some time to analyse it(Maybe I need one day).
+2) I'll use the new IDE which is called Visual Studio, It will take me some time to know that.
+3) I must use Google to find what I need, It means I must use english(It'll take me much time)!
+4) others ......
+
+
+	schedule:
+1) Trans.h Trans.cpp
+2) TransDlg.h TransDlg.cpp
+3) CtrlFun.h CtrlFun.cpp
+
+
+bug I need repair:
+1.move cursor to end;
+2.auto hide should show some part which is contain words meaning and words pronunciation
+3.every word have different repeat times 
+4.baidu pronunciation add 1 google pronunciation minus 1 ;
+5.remove google pronunciation and add a Cambridge pronunciation;
+6.keey the trans window front
+
+
+
+updata:
+1.add baidu trans result(with past ing pl etc. and collins(all),en-en(synonym), example, pronunciation)
+2.google word definitions, examplem,see also. 
+3.can adjust size.
+4.use rich edit.
+
+

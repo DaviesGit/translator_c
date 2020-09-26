@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Translator - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Translator.res" /d "_DEBUG" "F:\MyWorks\C++Works\Translator2.0\Translator.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP10B.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Translator.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\MyWorks\C++Works\Translator2.0\Operation.cpp"
+"F:\MyWorks\C++Works\Translator2.0\TransDlg.cpp"
+"F:\MyWorks\C++Works\Translator2.0\Translate.cpp"
+"F:\MyWorks\C++Works\Translator2.0\Translator.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP10B.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP10C.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Translator.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\MyWorks\C++Works\Translator2.0\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP10C.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP10D.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Translator.pdb" /debug /machine:I386 /out:"Debug/Translator.exe" /pdbtype:sept 
+".\Debug\Operation.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TransDlg.obj"
+".\Debug\Translate.obj"
+".\Debug\Translator.obj"
+".\Debug\Translator.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP10D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Operation.cpp
+TransDlg.cpp
+Translate.cpp
+Translator.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Translator.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\Operation.sbr" ".\Debug\TransDlg.sbr" ".\Debug\Translate.sbr" ".\Debug\Translator.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Translator.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
